@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="092102ff-f687-4d63-8b51-aaf8812c5e46" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/close chat server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/closechat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/credentials.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/bcrypt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/dbserver.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/emailserver.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/jwt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/mkdir.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/avatar/.idea/avatar.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/avatar/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/avatar/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/avatar/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/avatar/1642868257325.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/avatar/1642868523939.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/avatar/164292661004861c18e22632f47c93680fce4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/avatar/164292673182161c18e22632f47c93680fce4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/avatar/164292687050061c18e22632f47c93680fce4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/avatar/164292755690261c18e22632f47c93680fce4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/avatar/164292768090761c18e22632f47c93680fce4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/avatar/164292775407961c18e22632f47c93680fce4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/avatar/164292838645461c18e22632f47c93680fce4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/avatar/164292887683961c18e22632f47c93680fce4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/avatar/164292891719861c18e22632f47c93680fce4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/avatar/164292901867061c18e22632f47c93680fce4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/avatar/164292940148161c18e22632f47c93680fce4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/avatar/164292996976161c18e22632f47c93680fce4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/avatar/164293009172461c18e22632f47c93680fce4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/avatar/164293010466861c18e22632f47c93680fce4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/avatar/164293015720661c18e22632f47c93680fce4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/avatar/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/dbmodel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router/files.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/friend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/signin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/signup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/userdetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="E:\project\HbiuldXProjects\close-chat-server\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="21oL0xdQ3ahlPRaTLo2Uwsqg2Nq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\project\HbiuldXProjects\close chat server\data\avatar" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="092102ff-f687-4d63-8b51-aaf8812c5e46" name="默认更改列表" comment="" />
+      <created>1638602273292</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638602273292</updated>
+      <workItem from="1638602274856" duration="1189000" />
+      <workItem from="1639200625119" duration="7798000" />
+      <workItem from="1639284696433" duration="5591000" />
+      <workItem from="1639358483110" duration="3315000" />
+      <workItem from="1639804920827" duration="7787000" />
+      <workItem from="1639895789292" duration="163000" />
+      <workItem from="1639895992854" duration="227000" />
+      <workItem from="1639896493358" duration="953000" />
+      <workItem from="1639897484525" duration="165000" />
+      <workItem from="1639897942851" duration="199000" />
+      <workItem from="1639898179998" duration="213000" />
+      <workItem from="1639898412425" duration="45000" />
+      <workItem from="1639899561203" duration="268000" />
+      <workItem from="1639899893415" duration="366000" />
+      <workItem from="1639900279809" duration="262000" />
+      <workItem from="1639901177131" duration="59000" />
+      <workItem from="1639901282721" duration="30000" />
+      <workItem from="1639901333469" duration="16000" />
+      <workItem from="1639901365661" duration="15000" />
+      <workItem from="1639901421889" duration="2475000" />
+      <workItem from="1639971470911" duration="12208000" />
+      <workItem from="1640050457506" duration="21000" />
+      <workItem from="1640050508939" duration="23262000" />
+      <workItem from="1640137256928" duration="23584000" />
+      <workItem from="1640223239239" duration="24790000" />
+      <workItem from="1640309958112" duration="12974000" />
+      <workItem from="1640422093723" duration="2244000" />
+      <workItem from="1640491619237" duration="2822000" />
+      <workItem from="1640569066685" duration="8765000" />
+      <workItem from="1640655141057" duration="4111000" />
+      <workItem from="1641886924995" duration="736000" />
+      <workItem from="1641888719576" duration="661000" />
+      <workItem from="1641890276746" duration="2836000" />
+      <workItem from="1642577869269" duration="662000" />
+      <workItem from="1642649669574" duration="2814000" />
+      <workItem from="1642837219869" duration="16039000" />
+      <workItem from="1642942836128" duration="1853000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="825" y="191" key="#Inspections" timestamp="1639987233690">
+      <screen x="0" y="0" width="1920" height="1049" />
+    </state>
+    <state x="825" y="191" key="#Inspections/0.0.1920.1049@0.0.1920.1049" timestamp="1639987233690" />
+    <state x="755" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1642844209532">
+      <screen x="0" y="0" width="1920" height="1049" />
+    </state>
+    <state x="755" y="327" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1049@0.0.1920.1049" timestamp="1642844209532" />
+    <state x="701" y="267" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1639897608854">
+      <screen x="0" y="0" width="1920" height="1049" />
+    </state>
+    <state x="701" y="267" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1049@0.0.1920.1049" timestamp="1639897608854" />
+    <state x="544" y="174" key="#更新" timestamp="1639897578013">
+      <screen x="0" y="0" width="1920" height="1049" />
+    </state>
+    <state x="544" y="174" key="#更新/0.0.1920.1049@0.0.1920.1049" timestamp="1639897578013" />
+    <state x="990" y="253" key="FileChooserDialogImpl" timestamp="1640248515061">
+      <screen x="0" y="0" width="1920" height="1049" />
+    </state>
+    <state x="990" y="253" key="FileChooserDialogImpl/0.0.1920.1049@0.0.1920.1049" timestamp="1640248515061" />
+    <state x="862" y="158" key="SettingsEditor" timestamp="1640248516656">
+      <screen x="0" y="0" width="1920" height="1049" />
+    </state>
+    <state x="862" y="158" key="SettingsEditor/0.0.1920.1049@0.0.1920.1049" timestamp="1640248516656" />
+    <state x="70" y="82" width="1736" height="865" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1642943876841">
+      <screen x="0" y="0" width="1920" height="1049" />
+    </state>
+    <state x="70" y="82" width="1736" height="865" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1049@0.0.1920.1049" timestamp="1642943876841" />
+    <state x="896" y="247" key="run.anything.popup" timestamp="1640242192578">
+      <screen x="0" y="0" width="1920" height="1049" />
+    </state>
+    <state x="896" y="247" key="run.anything.popup/0.0.1920.1049@0.0.1920.1049" timestamp="1640242192578" />
+    <state x="973" y="185" width="670" height="676" key="search.everywhere.popup" timestamp="1640150414394">
+      <screen x="0" y="0" width="1920" height="1049" />
+    </state>
+    <state x="973" y="185" width="670" height="676" key="search.everywhere.popup/0.0.1920.1049@0.0.1920.1049" timestamp="1640150414394" />
+  </component>
+</project>
