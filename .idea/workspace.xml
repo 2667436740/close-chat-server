@@ -2,54 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="092102ff-f687-4d63-8b51-aaf8812c5e46" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/close chat server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/closechat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/credentials.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/db.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/bcrypt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/dbserver.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/emailserver.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/jwt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/mkdir.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/avatar/.idea/avatar.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/avatar/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/avatar/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/avatar/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/avatar/1642868257325.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/avatar/1642868523939.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/avatar/164292661004861c18e22632f47c93680fce4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/avatar/164292673182161c18e22632f47c93680fce4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/avatar/164292687050061c18e22632f47c93680fce4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/avatar/164292755690261c18e22632f47c93680fce4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/avatar/164292768090761c18e22632f47c93680fce4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/avatar/164292775407961c18e22632f47c93680fce4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/avatar/164292838645461c18e22632f47c93680fce4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/avatar/164292887683961c18e22632f47c93680fce4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/avatar/164292891719861c18e22632f47c93680fce4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/avatar/164292901867061c18e22632f47c93680fce4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/avatar/164292940148161c18e22632f47c93680fce4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/avatar/164292996976161c18e22632f47c93680fce4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/avatar/164293009172461c18e22632f47c93680fce4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/avatar/164293010466861c18e22632f47c93680fce4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/avatar/164293015720661c18e22632f47c93680fce4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/avatar/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/dbmodel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/router/files.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/friend.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/signin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/signup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/userdetail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/dbserver.js" beforeDir="false" afterPath="$PROJECT_DIR$/dao/dbserver.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +47,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -146,6 +101,8 @@
       <workItem from="1642649669574" duration="2814000" />
       <workItem from="1642837219869" duration="16039000" />
       <workItem from="1642942836128" duration="1853000" />
+      <workItem from="1643011335792" duration="2334000" />
+      <workItem from="1643075847692" duration="7795000" />
     </task>
     <servers />
   </component>
@@ -173,14 +130,18 @@
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state x="990" y="253" key="FileChooserDialogImpl/0.0.1920.1049@0.0.1920.1049" timestamp="1640248515061" />
-    <state x="862" y="158" key="SettingsEditor" timestamp="1640248516656">
+    <state x="862" y="158" key="SettingsEditor" timestamp="1643011373851">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
-    <state x="862" y="158" key="SettingsEditor/0.0.1920.1049@0.0.1920.1049" timestamp="1640248516656" />
+    <state x="862" y="158" key="SettingsEditor/0.0.1920.1049@0.0.1920.1049" timestamp="1643011373851" />
     <state x="70" y="82" width="1736" height="865" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1642943876841">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state x="70" y="82" width="1736" height="865" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1049@0.0.1920.1049" timestamp="1642943876841" />
+    <state x="644" y="124" width="632" height="801" key="find.popup" timestamp="1643102742781">
+      <screen x="0" y="0" width="1920" height="1049" />
+    </state>
+    <state x="644" y="124" width="632" height="801" key="find.popup/0.0.1920.1049@0.0.1920.1049" timestamp="1643102742781" />
     <state x="896" y="247" key="run.anything.popup" timestamp="1640242192578">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>

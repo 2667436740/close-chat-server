@@ -165,7 +165,7 @@ exports.buildFriend = (uid, fid, state, res) => {
 
 //更新好友最后通讯时间
 exports.upFriendLastTime = (uid, fid, res) => {
-  let wherestr = {$or: [{'userId': uid, 'friendID': fid}, {'userId': fid, 'friendID': uid}]}
+  let wherestr = {$or: [{'userID': uid, 'friendID': fid}, {'userID': fid, 'friendID': uid}]}
   let updatestr = {'lastTime': new Date()}
   Friend.updateMany(wherestr, updatestr, (err, result) => {
     if (err) console.log('更新好友最后通讯时间出错')
@@ -193,12 +193,13 @@ exports.insertMsg = (uid, fid, msg, type, res) => {
 
 //好友申请
 exports.applyFriend = (data, res) => {
+  console.log(data)
   //判断是否已经申请过
-  let wherestr = {'userId': data.uid, 'friendID': data.fid}
+  let wherestr = {'userID': data.uid, 'friendID': data.fid}
   Friend.countDocuments(wherestr, (err, result) => {
     if (err) res.send({status: 500})
     else {
-      console.log(result);
+      console.log('查询到好友申请数量：',result);
       if (result == 0) {
         //初次申请
         this.buildFriend(data.uid, data.fid, 2)
@@ -215,7 +216,7 @@ exports.applyFriend = (data, res) => {
 
 //更新好友状态，同意好友
 exports.updateFriendState = (uid, fid, res) => {
-  let wherestr = {$or: [{'userId': uid, 'friendID': fid}, {'userId': fid, 'friendID': uid}]}
+  let wherestr = {$or: [{'userID': uid, 'friendID': fid}, {'userID': fid, 'friendID': uid}]}
   Friend.updateMany(wherestr, {'state': 0}, (err, result) => {
     if (err) res.send({status: 500})
     else res.send({status: 200})
@@ -224,7 +225,7 @@ exports.updateFriendState = (uid, fid, res) => {
 
 //拒绝好友或删除好友
 exports.deleteFriend = (uid, fid, res) => {
-  let wherestr = {$or: [{'userId': uid, 'friendID': fid}, {'userId': fid, 'friendID': uid}]}
+  let wherestr = {$or: [{'userID': uid, 'friendID': fid}, {'userID': fid, 'friendID': uid}]}
   Friend.deleteMany(wherestr, (err, result) => {
     if (err) res.send({status: 500})
     else res.send({status: 200})
@@ -247,7 +248,7 @@ exports.getUsers = (uid, state, res) => {
         id: ver.friendID._id,
         username: ver.friendID.username,
         imgUrl: ver.friendID.imgUrl,
-        lastTime: ver.lastTime
+        lastTime: ver.lastTime.valueOf() //ISODate转换为时间戳
       }
     })
     res.send({status: 200, result})
@@ -260,7 +261,7 @@ exports.getUsers = (uid, state, res) => {
 exports.getOneMsg = (uid, fid, res) => {
   const query = Message.findOne({})
   //查询条件
-  query.where({$or: [{'userId': uid, 'friendID': fid}, {'userId': fid, 'friendID': uid}]})
+  query.where({$or: [{'userID': uid, 'friendID': fid}, {'userID': fid, 'friendID': uid}]})
   //排序方式
   query.sort({'time': -1}) //-1从大到小排，最后时间倒序
   //查询结果
@@ -279,7 +280,7 @@ exports.getOneMsg = (uid, fid, res) => {
 //汇总一对一消息未读数
 exports.unreadMsg = (uid, fid, res) => {
   //汇总条件
-  let wherestr = {'userId': uid, 'friendID': fid, 'state': 1}
+  let wherestr = {'userID': uid, 'friendID': fid, 'state': 1}
   Message.countDocuments(wherestr, (err, result) => {
     if (err) res.send({status: 500})
     else res.send({status: 200, result})
@@ -289,7 +290,7 @@ exports.unreadMsg = (uid, fid, res) => {
 //一对一消息状态修改
 exports.updateMsg = (uid, fid, res) => {
   //修改项条件
-  let wherestr = {'userId': uid, 'friendID': fid, 'state': 1}
+  let wherestr = {'userID': uid, 'friendID': fid, 'state': 1}
   //修改内容
   let updatestr = {'state': 0}
   Message.updateMany(wherestr, updatestr, (err, result) => {
