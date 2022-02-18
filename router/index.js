@@ -6,6 +6,7 @@ const search = require('../server/search')
 const userdetail = require('../server/userdetail')
 const friend = require('../server/friend')
 const index = require('../server/index')
+const chat = require('../server/chat')
 
 module.exports = function (app) {
   app.get('/test', (req, res) => {
@@ -96,5 +97,11 @@ module.exports = function (app) {
   //清除消息未读数
   app.post('/index/clearunreadmsg', (req, res) => {
     index.clearUnreadMsg(req, res)
+  })
+
+  //--------聊天页
+  //分页获取一对一聊天消息
+  app.post('/chat/msg', (req, res) => {
+    chat.msg(req, res)
   })
 }

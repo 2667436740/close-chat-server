@@ -298,3 +298,36 @@ exports.updateMsg = (uid, fid, res) => {
     else res.send({status: 200})
   })
 }
+
+//消息操作
+//分页获取一对一聊天消息
+exports.msg = (data, res) => {
+  const skipNum = data.nowPage * data.pageSize //跳过的条数
+  const query = Message.find({})
+  //查询条件
+  query.where({$or: [{'userID': data.uid, 'friendID': data.fid}, {'userID': data.fid, 'friendID': data.uid}]})
+  //排序方式
+  query.sort({'time': -1}) //-1从大到小排，最后时间倒序
+  //查找friendID 关联的 user对象
+  query.populate('userID')
+  //跳过条数
+  query.skip(skipNum)
+  //一页条数
+  query.limit(data.pageSize)
+  //查询结果
+  query.exec().then(e => {
+    const result = e.map(ver => {
+      return {
+        id: ver._id,
+        message: ver.message,
+        types: ver.types,
+        time: ver.time.valueOf(), //ISODate转换为时间戳
+        fromId: ver.userID._id,
+        imgUrl: ver.userID.imgUrl
+      }
+    })
+    res.send({status: 200, result})
+  }).catch(err => {
+    res.send({status: 500})
+  })
+}
