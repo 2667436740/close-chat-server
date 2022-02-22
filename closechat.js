@@ -8,6 +8,11 @@ const express = require('express')
 const app = express()
 const port = 3000
 
+//socket.io
+const server = app.listen(8082)
+const io = require('socket.io')(server)
+require('./dao/socket')(io)
+
 //解析前端数据
 //限制参数文件大小,处理request entity too large
 app.use(bodyParser.json({limit: '50mb'}));

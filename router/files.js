@@ -9,6 +9,9 @@ function base64ToImg(data, url, name, res) {
   const path = 'data/' + url + '/' + name + '.png';
   const base64 = data.replace(/^data:image\/\w+;base64,/, "");//去掉图片base64码前面部分data:image/png;base64
   const dataBuffer = new Buffer(base64, 'base64'); //把base64码转成buffer对象，
+  mkdir.mkdirs(`../data/${url}`, err => {
+    console.log(err);
+  })
   fs.writeFile(path, dataBuffer, function (err) {//用fs写入文件
     if (err) {
       console.log(err);

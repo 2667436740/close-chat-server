@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="092102ff-f687-4d63-8b51-aaf8812c5e46" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/server/chat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/socket.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/dbserver.js" beforeDir="false" afterPath="$PROJECT_DIR$/dao/dbserver.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/closechat.js" beforeDir="false" afterPath="$PROJECT_DIR$/closechat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/router/files.js" beforeDir="false" afterPath="$PROJECT_DIR$/router/files.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +109,9 @@
       <workItem from="1643540796618" duration="1222000" />
       <workItem from="1644978005477" duration="901000" />
       <workItem from="1645063207002" duration="657000" />
-      <workItem from="1645149709556" duration="2485000" />
+      <workItem from="1645149709556" duration="3768000" />
+      <workItem from="1645408834551" duration="13363000" />
+      <workItem from="1645494281295" duration="2096000" />
     </task>
     <servers />
   </component>
