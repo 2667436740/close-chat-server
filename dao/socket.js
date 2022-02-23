@@ -50,14 +50,14 @@ module.exports = function (io) {
     socket.on('msg', (msgObj, fromId, toId) => {
       console.log(msgObj, fromId, toId);
       console.log('当前users上线列表：' + JSON.stringify(users))
+      //更新好友最后通讯时间
+      dbserver.upFriendLastTime(fromId, toId)
+      //添加一对一消息
+      dbserver.insertMsg(fromId, toId, msgObj[0].message, msgObj[0].types)
       //回复客户端
       users.map(e => {
         //用户在线状态
         if (e.id == toId) {
-          //更新好友最后通讯时间
-          dbserver.upFriendLastTime(fromId, toId)
-          //添加一对一消息
-          dbserver.insertMsg(fromId, toId, msgObj[0].message, msgObj[0].types)
           //发送给对方
           socket.to(e.room).emit('msg', msgObj, fromId, 0)
         }
