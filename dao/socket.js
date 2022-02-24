@@ -76,5 +76,16 @@ module.exports = function (io) {
         }
       })
     })
+
+    //用户退出
+    socket.on('quit', (id) => {
+      users.map((e, i) => {
+        if (e.id == id) {
+          users.splice(i, 1)
+          console.log(socket.id + '退出登陆');
+          console.log('当前users上线列表：' + JSON.stringify(users))
+        }
+      })
+    })
   });
 }
