@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="092102ff-f687-4d63-8b51-aaf8812c5e46" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/emailserver.js" beforeDir="false" afterPath="$PROJECT_DIR$/dao/emailserver.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dao/socket.js" beforeDir="false" afterPath="$PROJECT_DIR$/dao/socket.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +112,14 @@
       <workItem from="1645408834551" duration="13363000" />
       <workItem from="1645494281295" duration="14474000" />
       <workItem from="1645581074911" duration="7897000" />
-      <workItem from="1645666936605" duration="2162000" />
+      <workItem from="1645666936605" duration="6720000" />
+      <workItem from="1645854995483" duration="2724000" />
+      <workItem from="1646114216514" duration="2606000" />
+      <workItem from="1646271846897" duration="45000" />
+      <workItem from="1646409156739" duration="2468000" />
+      <workItem from="1646726279982" duration="1815000" />
+      <workItem from="1646790700817" duration="923000" />
+      <workItem from="1646894324839" duration="106000" />
     </task>
     <servers />
   </component>

@@ -2,7 +2,10 @@ const dbserver = require('../dao/dbserver')
 
 module.exports = function (io) {
   let users = []; //用户登录注册socket
+//   var len = {}
+//   Object.defineProperty(len,users,{set() { return console.log('有用户上线或下线，在线数量：'+ arr.length) }})
   io.on('connection', (socket) => {
+
     //用户登录注册
     socket.on('login', id => {
       console.log(socket.id + '上线');
@@ -17,7 +20,25 @@ module.exports = function (io) {
       } else {
         users.push({room: socket.id, id: id})
       }
+
+      // 自己登录，通知所有其他的用户刷新在线列表
+      users.map(e=>{
+        socket.to(e.room).emit('onlineUsers', JSON.stringify(users));
+      })
+      //   socket.broadcast.emit('onlineUsers', JSON.stringify(users));
       console.log('当前users上线列表：' + JSON.stringify(users))
+    })
+
+    //用户请求获取在线列表请求（发送给自己）
+    socket.on('getOnline', id => {
+      console.log(id + '想要获取在线列表请求');
+      users.map(e=>{
+        if(e.id == id) {
+          // console.log('发送给自己:' + e.id + '____' + e.room)
+          socket.emit('onlineUsers', JSON.stringify(users));
+        }
+      })
+      //   socket.broadcast.emit('onlineUsers', JSON.stringify(users));
     })
 
     //好友申请
@@ -71,6 +92,7 @@ module.exports = function (io) {
       users.map((e, i) => {
         if (e.id == socket.name) {
           users.splice(i, 1)
+          socket.broadcast.emit('onlineUsers', JSON.stringify(users));
           console.log(socket.id + '离开');
           console.log('当前users上线列表：' + JSON.stringify(users))
         }
@@ -82,6 +104,7 @@ module.exports = function (io) {
       users.map((e, i) => {
         if (e.id == id) {
           users.splice(i, 1)
+          socket.broadcast.emit('onlineUsers', JSON.stringify(users));
           console.log(socket.id + '退出登陆');
           console.log('当前users上线列表：' + JSON.stringify(users))
         }
