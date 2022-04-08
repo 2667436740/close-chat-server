@@ -2,7 +2,130 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="092102ff-f687-4d63-8b51-aaf8812c5e46" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/config/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/close chat server.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/closechat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/credentials.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/db.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/bcrypt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/dbserver.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/emailserver.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/jwt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/mkdir.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/socket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/avatar/.idea/avatar.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/avatar/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/avatar/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/avatar/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/avatar/1642868257325.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/avatar/1642868523939.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/avatar/164292661004861c18e22632f47c93680fce4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/avatar/164292673182161c18e22632f47c93680fce4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/avatar/164292687050061c18e22632f47c93680fce4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/avatar/164292755690261c18e22632f47c93680fce4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/avatar/164292768090761c18e22632f47c93680fce4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/avatar/164292775407961c18e22632f47c93680fce4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/avatar/164292838645461c18e22632f47c93680fce4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/avatar/164292887683961c18e22632f47c93680fce4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/avatar/164292891719861c18e22632f47c93680fce4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/avatar/164292901867061c18e22632f47c93680fce4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/avatar/164292940148161c18e22632f47c93680fce4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/avatar/164292996976161c18e22632f47c93680fce4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/avatar/164293009172461c18e22632f47c93680fce4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/avatar/164293010466861c18e22632f47c93680fce4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/avatar/164293015720661c18e22632f47c93680fce4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/avatar/164351964454261f601421f6dfe18c90828b2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/avatar/164352141077961f6256def62b793d1eb5bb6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/avatar/164352249044361c591f805041b90d428ab0d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/avatar/164506375948361c58c4105041b90d428aaf3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/avatar/164506440223761c58c4105041b90d428aaf3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/avatar/164506447901261c58c4105041b90d428aaf3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/avatar/164506673784161ed3fb3fa67176e7148b80d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/avatar/1645084953614620df84e64e3cdeb21d4f784.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/avatar/164515967794161c591bb05041b90d428ab09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/avatar/164515971378961c591bb05041b90d428ab09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/avatar/1645176354775620f57ab27b555d53159f8b7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/avatar/164542311523662132650165f0626a3e972a7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/avatar/164559529415161ed39e0fa67176e7148b78f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/avatar/164559540305661ed39e0fa67176e7148b78f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/avatar/164559541494261ed39e0fa67176e7148b78f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/avatar/164568477003161c58ef305041b90d428ab00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/avatar/16458595701016219d1fb76c6067330a53d81.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/avatar/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bg/16494077364686228637bf56484d059c72468.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bg/16494094764406228637bf56484d059c72468.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bg/16494117602946228637bf56484d059c72468.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bg/16494121280976228637bf56484d059c72468.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bg/164942705666962280cfd0e4de63cf01cecb6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bg/16494303568266228637bf56484d059c72468.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/164543322951761c18e22632f47c93680fce4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/164543333098561c18e22632f47c93680fce4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/164549848370962132650165f0626a3e972a7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/164549875638161c18e22632f47c93680fce4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/164549924287962132650165f0626a3e972a7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/164549925810162132650165f0626a3e972a7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/164549927680462132650165f0626a3e972a7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/164549932798362132650165f0626a3e972a7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/164549934077461c18e22632f47c93680fce4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/164550018329662132650165f0626a3e972a7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/164550044323262132650165f0626a3e972a7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/164550044841562132650165f0626a3e972a7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/164550044842062132650165f0626a3e972a7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/164550050171361c18e22632f47c93680fce4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/164550050171461c18e22632f47c93680fce4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/164550050171561c18e22632f47c93680fce4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/164550051056962132650165f0626a3e972a7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/164550059522861c18e22632f47c93680fce4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/164550059522961c18e22632f47c93680fce4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/164550059523061c18e22632f47c93680fce4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/164550059523161c18e22632f47c93680fce4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/164550060244562132650165f0626a3e972a7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/164550060244662132650165f0626a3e972a7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/164550060244762132650165f0626a3e972a7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/164550061854062132650165f0626a3e972a7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/164550317513962132650165f0626a3e972a7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/164550317514262132650165f0626a3e972a7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/164551145779662132650165f0626a3e972a7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/164551306945662132650165f0626a3e972a7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/164551552929562132650165f0626a3e972a7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/164551557115162132650165f0626a3e972a7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/164551585278162132650165f0626a3e972a7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/164551686070762132650165f0626a3e972a7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/164551712511762132650165f0626a3e972a7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/164552088029962132650165f0626a3e972a7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/164552113296462132650165f0626a3e972a7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/164560501490462132650165f0626a3e972a7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/164560503708861c18e22632f47c93680fce4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/164560704027761ed39e0fa67176e7148b78f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/1645608969761620df84e64e3cdeb21d4f784.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/1645667386985620df84e64e3cdeb21d4f784.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/164566741994061c18e22632f47c93680fce4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/164569072475162132650165f0626a3e972a7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/164569072475262132650165f0626a3e972a7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/164569137638761c18e22632f47c93680fce4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/164585713782061c58ef305041b90d428ab00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/16458594842306219d1fb76c6067330a53d81.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/16458595361376219d1fb76c6067330a53d81.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/164585979646162132650165f0626a3e972a7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/164585980229462132650165f0626a3e972a7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/164585980229562132650165f0626a3e972a7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/chat/164585980229762132650165f0626a3e972a7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/dbmodel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/router/files.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/chat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/friend.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/signin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/signup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/userdetail.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +248,8 @@
       <workItem from="1648307197865" duration="2612000" />
       <workItem from="1649405722586" duration="3962000" />
       <workItem from="1649423437218" duration="2519000" />
-      <workItem from="1649434520979" duration="372000" />
+      <workItem from="1649434520979" duration="628000" />
+      <workItem from="1649435200545" duration="56000" />
     </task>
     <servers />
   </component>
