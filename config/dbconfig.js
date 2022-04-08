@@ -1,3 +1,9 @@
+/*
+*       后台引用的所有 db.js 就是本文件 dbconfig.js
+*       把本文件改成 db.js 即可
+*
+* */
+
 var mongoose = require('mongoose')
 
 // var db = mongoose.createConnection('mongodb://localhost:27017/closechat')
