@@ -19,7 +19,7 @@ exports.emailSignUp = (email, res) => {
     from: '2667436740@qq.com',
     to: email,
     subject: '感谢注册CloseChat',
-    html: '<span>CloseChat欢迎新CCer的加入</span><a href="http://124.221.144.134">点击即刻进入</a>'
+    html: '<span>CloseChat欢迎新CCer的加入</span><a href="http://124.222.244.60">点击即刻进入</a>'
   }
 
   //发送邮件

@@ -8,8 +8,9 @@ const SchemaUser = new Schema({
   password: {type: String}, //密码
   email: {type: String}, //邮箱
   explain: {type: String}, //签名
-  imgUrl: {type: String, default: 'user.png'}, //头像
+  imgUrl: {type: String, default: 'user.png'}, //头像名（xxxxx.png）
   time: {type: Date}, //注册时间
+  bgUrl: {type: String}, //背景名（xxxxx.png）
 })
 
 //好友表

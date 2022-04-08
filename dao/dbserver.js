@@ -46,7 +46,7 @@ exports.countUserValue = (data, type, res) => {
 //用户验证
 exports.userMatch = (data, pwd, res) => {
   let wherestr = {$or: [{'username': data}, {'email': data}]}
-  let out = {'username': 1, 'imgUrl': 1, 'password': 1}
+  let out = {'username': 1, 'imgUrl': 1, 'password': 1, 'bgUrl': 1}
   User.find(wherestr, out, (err, result) => {
     if (err) res.send({status: 500})
     else {
@@ -60,7 +60,8 @@ exports.userMatch = (data, pwd, res) => {
             id: e._id,
             username: e.username,
             imgUrl: e.imgUrl,
-            token: token
+            token: token,
+            bgUrl: e.bgUrl,
           }
           res.send({status: 200, back})
         } else {
