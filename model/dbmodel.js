@@ -28,6 +28,7 @@ const SchemaMessage = new Schema({
   friendID: {type: Schema.Types.ObjectId, ref:'User'}, //好友id
   message: {type: String}, //消息内容
   types: {type: String}, //内容类型（0：文字，1：图片链接，2：音频链接，3：定位）
+  uuid: {type: String}, //消息唯一id
   time: {type: Date}, //发送时间
   state: {type: Number}, //消息状态（0：已读，1：未读）
 })

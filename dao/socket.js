@@ -74,7 +74,7 @@ module.exports = function (io) {
       //更新好友最后通讯时间
       dbserver.upFriendLastTime(fromId, toId)
       //添加一对一消息
-      dbserver.insertMsg(fromId, toId, msgObj[0].message, msgObj[0].types)
+      dbserver.insertMsg(fromId, toId, msgObj[0].message, msgObj[0].types, msgObj[0].uuid)
       //回复客户端
       users.map(e => {
         //用户在线状态
@@ -84,6 +84,18 @@ module.exports = function (io) {
         }
         //发送给自己
         socket.emit('msg', msgObj, toId, 1)
+      });
+    })
+
+    //撤回消息
+    socket.on('delmsg', (msgId, toID) => {
+      //回复客户端
+      users.map(e => {
+        //用户在线状态
+        if (e.id == toID) {
+          //发送给对方
+          socket.to(e.room).emit('delmsg',msgId)
+        }
       });
     })
 

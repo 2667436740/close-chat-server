@@ -175,13 +175,14 @@ exports.upFriendLastTime = (uid, fid, res) => {
 }
 
 //添加一对一消息
-exports.insertMsg = (uid, fid, msg, type, res) => {
+exports.insertMsg = (uid, fid, msg, type, uuid, res) => {
   const data = {
     userID: uid,
     friendID: fid,
     message: msg,
     types: type, //内容类型（0：文字，1：图片链接，2：音频链接，3：定位）
-    time: new Date(),
+    uuid: uuid, //消息唯一id
+    time: new Date().getTime(),
     state: 1, //消息状态（0：已读，1：未读）
   }
 
@@ -189,10 +190,20 @@ exports.insertMsg = (uid, fid, msg, type, res) => {
   message.save((err, result) => {
     if (err) {
       if (res) res.send({status: 500})
-    }
-    else {
+    } else {
       if (res) res.send({status: 200})
     }
+  })
+}
+
+//删除一对一消息(撤回消息)
+exports.deleteMsg = (data, res) => {
+  let wherestr = {uuid: data.uuid}
+  console.log(wherestr)
+
+  Message.deleteOne(wherestr, (err, result) => {
+    if (err) res.send({status: 500})
+    else res.send({status: 200})
   })
 }
 
@@ -204,7 +215,7 @@ exports.applyFriend = (data, res) => {
   Friend.countDocuments(wherestr, (err, result) => {
     if (err) res.send({status: 500})
     else {
-      console.log('查询到好友申请数量：',result);
+      console.log('查询到好友申请数量：', result);
       if (result == 0) {
         //初次申请
         this.buildFriend(data.uid, data.fid, 2)
@@ -328,7 +339,8 @@ exports.msg = (data, res) => {
         types: ver.types,
         time: ver.time.valueOf(), //ISODate转换为时间戳
         fromId: ver.userID._id,
-        imgUrl: ver.userID.imgUrl
+        imgUrl: ver.userID.imgUrl,
+        uuid: ver.uuid,
       }
     })
     res.send({status: 200, result})

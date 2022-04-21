@@ -104,4 +104,8 @@ module.exports = function (app) {
   app.post('/chat/msg', (req, res) => {
     chat.msg(req, res)
   })
+  //撤回消息
+  app.post('/chat/deletemsg', (req, res) => {
+    chat.deleteMsg(req, res)
+  })
 }
