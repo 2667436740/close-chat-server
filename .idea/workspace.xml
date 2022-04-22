@@ -4,10 +4,6 @@
     <list default="true" id="092102ff-f687-4d63-8b51-aaf8812c5e46" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dao/dbserver.js" beforeDir="false" afterPath="$PROJECT_DIR$/dao/dbserver.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/socket.js" beforeDir="false" afterPath="$PROJECT_DIR$/dao/socket.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/dbmodel.js" beforeDir="false" afterPath="$PROJECT_DIR$/model/dbmodel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/chat.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,6 +131,8 @@
       <workItem from="1649754402417" duration="943000" />
       <workItem from="1650248498779" duration="3458000" />
       <workItem from="1650437648864" duration="8591000" />
+      <workItem from="1650505706372" duration="148000" />
+      <workItem from="1650592290247" duration="1663000" />
     </task>
     <servers />
   </component>

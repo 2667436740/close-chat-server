@@ -212,6 +212,7 @@ exports.applyFriend = (data, res) => {
   console.log(data)
   //判断是否已经申请过
   let wherestr = {'userID': data.uid, 'friendID': data.fid}
+  console.log(wherestr);
   Friend.countDocuments(wherestr, (err, result) => {
     if (err) res.send({status: 500})
     else {
@@ -225,7 +226,7 @@ exports.applyFriend = (data, res) => {
         this.upFriendLastTime(data.uid, data.fid)
       }
       //添加申请消息
-      this.insertMsg(data.uid, data.fid, data.msg, 0, res)
+      this.insertMsg(data.uid, data.fid, data.msg, 0, data.uuid, res)
     }
   })
 }
